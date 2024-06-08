@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(235 235 235);
+}
+
+.containerButtons {
+  width: 70%;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  margin-top: 3rem;
+}
+img {
+  object-fit: cover;
+}
+
+.containerButtons button {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 19px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+button.active {
+  background-color: rgb(68 74 245);
+  color: #fff;
+}
+
+.containerCards {
+  display: flex;
+  margin-top: 2rem;
+  width: 80%;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.card {
+  flex-basis: 353px;
+  background-color: #fff;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.card.hide {
+  display: none;
+}
+.card img {
+  width: 100%;
+  height: 16rem;
+  object-fit: fill;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.crudText {
+  padding: 0 5px 5px 40px;
+  font-weight: 300;
+  line-height: 0;
+  font-size: 22px;
+}

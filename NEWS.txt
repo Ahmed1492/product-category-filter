@@ -1,0 +1,33 @@
+.ContainerButtons{
+ 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+ÈÊÚãá ãÓÇİå Èíä ÇáÚäÇÕÑ 
+
+______________________________________________________________________________
+
+
+
+
+
+.containerCards{
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.card{
+    flex-basis: 300px;
+ 
+}
+.card img{
+    width: 100%;
+    height: 18rem;
+}
+
+
+
